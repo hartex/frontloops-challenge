@@ -1,0 +1,21 @@
+{
+  "name": "frontloops-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hartex/frontloops-challenge.git"
+  },
+  "author": "hartex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hartex/frontloops-challenge/issues"
+  },
+  "homepage": "https://github.com/hartex/frontloops-challenge#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.1",
+    "gulp-connect": "^5.5.0"
+  }
+}
