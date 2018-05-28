@@ -6,23 +6,51 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Loop 1 - Step 1</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css"/>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-  <!--
-    Welcome to your first asset!
+<!--
+  Welcome to your first asset!
 
-    You could've noticed there is a link to Roboto font in the head.
-    You can use it in css by typing font-family: Roboto, sans-serif;
-    and you can customize it by using font-weight (400, 500 etc. - numbers in the link tag)
+  You could've noticed there is a link to Roboto font in the head.
+  You can use it in css by typing font-family: Roboto, sans-serif;
+  and you can customize it by using font-weight (400, 500 etc. - numbers in the link tag)
 
-    Good luck and have fun!
-  -->
+  Good luck and have fun!
+-->
 
-<div class="pricing-container">
-<div class="pricing-container">
+<div class="offers-container">
 
-</div>
+  <div class="offer">
+    <!--<div class="offer-img mobile"></div>-->
+    <svg viewBox="0 0 100 100">
+      <use xlink:href="img/device.svg#device"></use>
+    </svg>
+    <p class="offer-header">MOBILE</p>
+    <p class="offer-text">Get notification about new releases in our mobile app.</p>
+    <p class="offer-price">$<span>10</span>/month</p>
+  </div>
+
+  <div class="offer">
+    <svg viewBox="0 0 100 100">
+      <use xlink:href="img/laptop.svg#laptop"></use>
+    </svg>
+    <p class="offer-header">DESKTOP</p>
+    <p class="offer-text">Enjoy new episodes on you laptop in browser with our web services, which supports all the
+      platforms.</p>
+    <p class="offer-price">$15/month</p>
+  </div>
+
+  <div class="offer">
+    <!--<div class="offer-img tv"></div>-->
+    <svg viewBox="0 0 100 100">
+      <use xlink:href="img/monitor.svg#monitor"></use>
+    </svg>
+    <p class="offer-header">TV</p>
+    <p class="offer-text">Watch your favorite series at home on large screen with our TV application.</p>
+    <p class="offer-price">$20/month</p>
+  </div>
 </div>
 </body>
 </html>
